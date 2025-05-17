@@ -1,0 +1,35 @@
+@import "variables.scss";
+.header {
+  padding: 20px 162px;
+  border-bottom: 1px solid $grey-15;
+}
+.header__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__nav-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-right: 40px;
+}
+.header__nav-link {
+  color: $absolute-white;
+  font-size: 18px;
+  font-weight: 600;
+}
+.active {
+  padding: 13px 28px;
+  background-color: $grey-15;
+  border-radius: 8px;
+}
+.header__nav-button {
+  padding: 16px 24px;
+  border-radius: 8px;
+  background-color: $green-60;
+  font-size: 18px;
+  font-weight: 500;
+  color: $grey-15;
+  margin-right: -15px;
+}

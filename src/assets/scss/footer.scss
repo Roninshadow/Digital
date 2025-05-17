@@ -1,0 +1,68 @@
+@import "variables.scss";
+.footer {
+	border-top: 1px solid $grey-15;
+}
+.footer__nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 50px 0;
+	border-bottom: 1px solid $grey-15;
+}
+.footer__nav-list {
+	display: flex;
+	gap: 30px;
+}
+.footer__nav-link {
+	color: $grey-90;
+	font-size: 18px;
+	font-weight: 500;
+}
+.footer__contacts {
+	padding: 14px 14px 14px 24px;
+	border: 1px solid $grey-15;
+	border-radius: 12px;
+	display: flex;
+	align-items: center;
+	gap: 14px;
+}
+.footer__contacts-text {
+	font-size: 18px;
+	font-weight: 500;
+	color: $absolute-white;
+}
+.footer__contacts-icon {
+	padding: 20px;
+	border-radius: 10px;
+	border: 1px solid linear-gradient(#2E2E2E, rgba(46,46,46,.0));
+	background: linear-gradient(#242424, rgba(36,36,36,.0));
+}
+.footer__connection {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 50px;
+	padding-bottom: 50px;
+}
+.footer__connection-list {
+	display: flex;
+	gap: 30px;
+}
+.footer__connection-item {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding-bottom: 16px;
+	border-bottom: 1px solid $grey-15;
+}
+.footer__connection-text {
+	color: $grey-90;
+	font-size: 18px;
+	font-weight: 400;
+	width: 100%;
+}
+.footer__copywriting {
+	color: $grey-60;
+	font-size: 18px;
+	font-weight: 400;
+}

@@ -1,0 +1,29 @@
+@use "sass:meta";
+@use "variables";
+@use "reset";
+body {
+  background-color: variables.$grey-10;
+  font-size: 21px;
+  color: white;
+  font-family: "Barlow", sans-serif;
+  line-height: 150%;
+}  
+.container {
+    width: 1596px;
+    margin: 0 auto;
+}
+@include meta.load-css("header");
+@include meta.load-css("hero");
+@include meta.load-css("aside");
+@include meta.load-css("services");
+@include meta.load-css("why-choose");
+@include meta.load-css("testimonials");
+@include meta.load-css("faq");
+@include meta.load-css("contact");
+@include meta.load-css("footer");
+@include meta.load-css("services-top");
+@include meta.load-css("design");
+@include meta.load-css("Engineering");
+@include meta.load-css("Project-Management");
+@include meta.load-css("services-bottom");
+@include meta.load-css("SquareUp.scss");

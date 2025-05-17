@@ -1,0 +1,51 @@
+@import "variables";
+.engineering__services {
+  border: 1px solid $grey-15;
+}
+.engineering__top {
+  padding: 50px;
+  padding-top: 120px;
+  border: 1px solid $grey-15;
+}
+.engineering__title {
+  font-size: 48px;
+  font-weight: 600;
+}
+.engineering__subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 14px;
+  margin-bottom: 50px;
+}
+.engineering__info {
+  padding: 12px 14px;
+  background-color: $grey-15;
+  width: 340px;
+  border-radius: 8px;
+  border: 1px solid $grey-15;
+}
+.engineering__category-title {
+  padding: 50px;
+  border: 1px solid $grey-15;
+  font-size: 28px;
+  font-weight: 500;
+  color: $grey-60;
+}
+.engineering__category {
+  display: flex;
+}
+.engineering__category-card {
+  padding: 50px;
+  border: 1px solid $grey-15;
+  width: 100%;
+}
+.engineering__category-icon {
+  padding: 24px;
+  border: 1px solid $grey-15;
+  border-radius: 12px;
+}
+.engineering__category-text {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
