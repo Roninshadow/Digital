@@ -200,10 +200,7 @@ function fonts(cb) {
 }
 
 function clean(cb) {
-    return del([
-			'dist/assets/css/*',
-			'!dist/assets/css/style.min.css',
-		])
+    return del(['dist/assets/css/**/*', '!dist/assets/css/style.min.css'])
 
     cb();
 }
