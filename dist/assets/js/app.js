@@ -1,1 +1,1 @@
-console.log("file 2");
+!function(){const e=document.querySelectorAll(".header__nav-link"),t=window.location.pathname.split("/").pop(),a=document.querySelectorAll(".faq__item");a.forEach((e=>{e.addEventListener("click",(()=>{a.forEach((t=>{t!==e&&t.classList.remove("active-faq")})),e.classList.toggle("active-faq")}))})),e.forEach((e=>{e.getAttribute("href")===t&&e.classList.add("active")}))}(),console.log("file 2");

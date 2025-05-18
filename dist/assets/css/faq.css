@@ -27,6 +27,7 @@
 .faq__item {
     padding: 34px 50px;
     border: 1px solid #262626;
+    cursor: pointer;
 }
 
 .faq__item-left {
@@ -63,6 +64,11 @@
 
 .faq__item-answer {
     display: none;
+    transition: all 0.5s;
+}
+
+.active-faq {
+    transition: all 0.5s;
 }
 
 .active-faq .faq__item-number {
@@ -76,4 +82,10 @@
 .active-faq .faq__item-answer {
     display: block;
     margin-left: 90px;
+}
+
+.active-faq svg {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    fill: #9eff00;
 }

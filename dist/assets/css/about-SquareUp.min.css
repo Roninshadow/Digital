@@ -1,0 +1,28 @@
+.about__about {
+  display: flex;
+  padding: 100px 150px;
+  border: 1px solid #262626;
+}
+
+.about__content {
+  padding: 140px 0;
+  padding-right: 100px;
+}
+
+.aboutSquareUp__title {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.aboutSquareUp__text {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.aboutSquareUp__image {
+  width: 600px;
+  height: 571px;
+  border-radius: 16px;
+  border: 1px solid #262626;
+}

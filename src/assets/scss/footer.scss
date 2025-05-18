@@ -1,26 +1,30 @@
-@import "variables.scss";
+@use "variables.scss";
 .footer {
-	border-top: 1px solid $grey-15;
+	border-top: 1px solid variables.$grey-15;
 }
 .footer__nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding: 50px 0;
-	border-bottom: 1px solid $grey-15;
+	border-bottom: 1px solid variables.$grey-15;
 }
 .footer__nav-list {
 	display: flex;
 	gap: 30px;
 }
 .footer__nav-link {
-	color: $grey-90;
+	color: variables.$grey-90;
 	font-size: 18px;
 	font-weight: 500;
+	transition: all .5s;
+	&:hover {
+		color: variables.$green-50;
+	}
 }
 .footer__contacts {
 	padding: 14px 14px 14px 24px;
-	border: 1px solid $grey-15;
+	border: 1px solid variables.$grey-15;
 	border-radius: 12px;
 	display: flex;
 	align-items: center;
@@ -29,7 +33,7 @@
 .footer__contacts-text {
 	font-size: 18px;
 	font-weight: 500;
-	color: $absolute-white;
+	color: variables.$absolute-white;
 }
 .footer__contacts-icon {
 	padding: 20px;
@@ -53,16 +57,16 @@
 	align-items: center;
 	gap: 10px;
 	padding-bottom: 16px;
-	border-bottom: 1px solid $grey-15;
+	border-bottom: 1px solid variables.$grey-15;
 }
 .footer__connection-text {
-	color: $grey-90;
+	color: variables.$grey-90;
 	font-size: 18px;
 	font-weight: 400;
 	width: 100%;
 }
 .footer__copywriting {
-	color: $grey-60;
+	color: variables.$grey-60;
 	font-size: 18px;
 	font-weight: 400;
 }

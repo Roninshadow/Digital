@@ -6,7 +6,7 @@ body {
   font-size: 21px;
   color: white;
   font-family: "Barlow", sans-serif;
-  line-height: 150%;
+  line-height: 1.5;
 }  
 .container {
     width: 1596px;
@@ -26,4 +26,11 @@ body {
 @include meta.load-css("Engineering");
 @include meta.load-css("Project-Management");
 @include meta.load-css("services-bottom");
-@include meta.load-css("SquareUp.scss");
+@include meta.load-css("SquareUp");
+@include meta.load-css("works__top");
+@include meta.load-css("process-top");
+@include meta.load-css("At-SquareUp");
+@include meta.load-css("about-top");
+@include meta.load-css("about-SquareUp");
+@include meta.load-css("about-bottom");
+@include meta.load-css("about-story");

@@ -1,0 +1,17 @@
+.process__top {
+  background-image: url(../images/text-bg5.png);
+  padding: 120px 300px;
+}
+
+.process__top-title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.process__top-subtitle {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 14px;
+}

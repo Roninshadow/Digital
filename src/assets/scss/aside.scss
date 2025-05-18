@@ -1,20 +1,20 @@
-@import "variables";
+@use "variables";
 .aside {
   display: flex;
   justify-content: center;
   position: relative;
-  background-color: $grey-10;
+  background-color: variables.$grey-10;
   padding: 40px 0;
   position: relative;
-  border: 1px solid $grey-15;
+  border: 1px solid variables.$grey-15;
 }
 .aside-info {
   position: absolute;
 	padding: 20px 34px;
 	border-radius: 100px;
-	background-color: $grey-10;
-  border: 1px solid $grey-15;
-	color: $green-99;
+	background-color: variables.$grey-10;
+  border: 1px solid variables.$grey-15;
+	color: variables.$green-99;
 	font-size: 18px;
 	font-weight: 500;
 	top: -40px;

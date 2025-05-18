@@ -1,0 +1,21 @@
+@use "variables";
+.about__bg {
+  background-image: url(../images/text-bg3.png);
+  background-repeat: no-repeat;
+  padding: 120px 300px;
+  border: 1px solid variables.$grey-15;
+}
+.about__title {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+}
+.about__subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  color: variables.$grey-90;
+  margin-top: 14px;
+  max-width: 950px;
+  line-height: 1.5;
+}

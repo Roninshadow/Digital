@@ -18,6 +18,7 @@ const webpackStream = require('webpack-stream');
 const browserSync = require("browser-sync").create();
 
 
+
 /* Paths */
 const srcPath = 'src/';
 const distPath = 'dist/';
@@ -199,7 +200,10 @@ function fonts(cb) {
 }
 
 function clean(cb) {
-    return del(path.clean);
+    return del([
+			'dist/assets/css/*',
+			'!dist/assets/css/style.min.css',
+		])
 
     cb();
 }

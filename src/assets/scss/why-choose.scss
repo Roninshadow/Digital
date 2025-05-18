@@ -1,8 +1,8 @@
-@import "variables";
+@use "variables";
 .whtChoose__top {
   background-image: url(../images/text-bg4.png);
   padding: 120px 300px;
-  border: 1px solid $grey-15;
+  border: 1px solid variables.$grey-15;
 }
 .whyChoose__title {
   font-size: 48px;
@@ -12,7 +12,7 @@
 .whyChoose__subtitle {
   font-size: 18px;
   font-weight: 400;
-  color: $grey-90;
+  color: variables.$grey-90;
   margin-top: 14px;
 }
 .whyChoose__cards {
@@ -22,7 +22,7 @@
 }
 .whyChoose__card {
   padding: 80px;
-  border: 1px solid $grey-15;
+  border: 1px solid variables.$grey-15;
 }
 .whyChoose__card-top {
   display: flex;
@@ -42,6 +42,6 @@
 .whyChoose__card-text {
   font-size: 20px;
   font-weight: 400;
-  color: $grey-90;
+  color: variables.$grey-90;
   margin-top: 40px;
 }

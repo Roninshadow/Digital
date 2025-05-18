@@ -1,1 +1,78 @@
-@import "variables";
+@use "variables";
+.SquareUp {
+  border: 1px solid variables.$grey-15;
+}
+.SquareUp__top {
+  border: 1px solid variables.$grey-15;
+  padding: 50px;
+  padding-top: 120px;
+}
+.SquareUp__title {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+.SquareUp__title-subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  color: variables.$grey-90;
+}
+.SquareUp__info {
+  font-size: 22px;
+  padding: 12px 14px;
+  font-weight: 400;
+  background-color: variables.$grey-15;
+  max-width: 450px;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+.SquareUp__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.SquareUp__card {
+  padding-top: 0;
+  border: 1px solid variables.$grey-15;
+}
+.SquareUp__card-top {
+  padding: 30px;
+  border-bottom: 1px solid variables.$grey-15;
+  font-size: 26px;
+  font-weight: 500;
+  color: variables.$grey-60;
+}
+.SquareUp__card-image {
+  padding: 30px 50px;
+  border-radius: 12px;
+}
+.SquareUp__card-titles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 50px;
+}
+.SquareUp__card-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.SquareUp__card-link {
+  padding: 10px 14px;
+  background-color: variables.$grey-15;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 400;
+  color: variables.$grey-60;
+}
+.SquareUp__card-arrow {
+  background-color: variables.$grey-15;
+  border-radius: 8px;
+  padding: 10px;
+}
+.SquareUp__card-text {
+  margin: 50px;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  color: variables.$grey-60;
+}
