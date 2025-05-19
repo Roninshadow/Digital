@@ -1,0 +1,57 @@
+@use "variables";
+.register__form {
+  max-width: 600px;
+  width: 100%;
+  background-color: variables.$grey-10;
+  padding: 40px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  &::backdrop {
+    background-color: rgba($color: #000000, $alpha: 0.8);
+  }
+}
+.register__form-name {
+  padding: 20px;
+  width: 100%;
+  background-color: rgba($color: #242424, $alpha: 0.5);
+  border-radius: 8px;
+  border: 1px solid variables.$grey-15;
+  margin-top: 40px;
+  color: variables.$absolute-white;
+}
+.register__form-email {
+  padding: 20px;
+  width: 100%;
+  background-color: rgba($color: #242424, $alpha: 0.5);
+  border-radius: 8px;
+  border: 1px solid variables.$grey-15;
+  margin-top: 40px;
+  color: variables.$absolute-white;
+}
+.register__form-input {
+  border-bottom: 1px solid variables.$grey-15;
+  padding-bottom: 5px;
+}
+.register__button {
+  padding: 20px 40px;
+  background-color: variables.$green-50;
+  border-radius: 8px;
+  color: variables.$grey-10;
+  margin-top: 40px;
+}
+.close__button {
+  padding: 20px 40px;
+  border: 1px solid variables.$grey-15;
+  border-radius: 8px;
+  color: variables.$absolute-white;
+  margin-top: 40px;
+}
+.buttons__popup {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}

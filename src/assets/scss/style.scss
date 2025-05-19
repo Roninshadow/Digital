@@ -7,10 +7,14 @@ body {
   color: white;
   font-family: "Barlow", sans-serif;
   line-height: 1.5;
+  min-height: 100vh;
 }  
 .container {
     width: 1596px;
     margin: 0 auto;
+}
+.scroll-block {
+  overflow: hidden
 }
 @include meta.load-css("header");
 @include meta.load-css("hero");
@@ -34,3 +38,4 @@ body {
 @include meta.load-css("about-SquareUp");
 @include meta.load-css("about-bottom");
 @include meta.load-css("about-story");
+@include meta.load-css("popup-register");

@@ -2,7 +2,8 @@
 .works__top {
   background-image: url(../images/text-bg1.png);
   background-repeat: no-repeat;
-  padding: 120px 300px;
+  padding: 110px 300px;
+  border: 1px solid variables.$grey-15;
 }
 .works__title {
   text-align: center;
