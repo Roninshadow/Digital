@@ -1,7 +1,10 @@
 @use "variables.scss";
 .header {
-  padding: 20px 162px;
+  padding: 20px 0;
   border-bottom: 1px solid variables.$grey-15;
+  @media (max-width: 1440px) {
+   padding: 20px 80px;   
+  }
 }
 .header__flex {
   display: flex;
@@ -14,6 +17,12 @@
   align-items: center;
   gap: 30px;
   margin-right: 40px;
+  
+}
+.active {
+  padding: 13px 28px;
+  background-color: variables.$grey-15;
+  border-radius: 8px;
 }
 .header__nav-link {
   color: variables.$absolute-white;
@@ -24,11 +33,6 @@
     color: variables.$green-60;
   }
 }
-.active {
-  padding: 13px 28px;
-  background-color: variables.$grey-15;
-  border-radius: 8px;
-}
 .header__nav-button {
   padding: 16px 24px;
   border-radius: 8px;
@@ -36,5 +40,5 @@
   font-size: 18px;
   font-weight: 500;
   color: variables.$grey-15;
-  margin-right: -15px;
 }
+

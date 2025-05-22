@@ -7,6 +7,9 @@
   padding: 40px 0;
   position: relative;
   border: 1px solid variables.$grey-15;
+  @media (max-width: 1440px) {
+    padding: 30px 0;
+  }
 }
 .aside-info {
   position: absolute;
@@ -20,6 +23,11 @@
 	top: -40px;
 	left: 50%;
 	transform: translateX(-50%);
+  @media (max-width: 1440px) {
+   top: -25px;
+   font-size: 14px;
+   padding: 14px 24px; 
+  }
 }
 
 .aside-images {
@@ -31,4 +39,7 @@
 }
 .aside-image {
   padding: 20px 40px;
+  @media (max-width: 1440px) {
+    padding: 16px 30px; 
+  }
 }

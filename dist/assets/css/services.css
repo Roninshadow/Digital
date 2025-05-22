@@ -1,0 +1,117 @@
+.services__top {
+    background-image: url(../images/text-bg3.png);
+    background-repeat: no-repeat;
+    padding: 95px 300px;
+    z-index: 0;
+    border: 1px solid #262626;
+}
+
+.services__title {
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    z-index: 1;
+}
+
+@media (max-width: 1440px) {
+    .services__title {
+        font-size: 38px;
+    }
+}
+
+.services__subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #e6e6e6;
+    margin-top: 14px;
+    z-index: 1;
+}
+
+@media (max-width: 1440px) {
+    .services__subtitle {
+        font-size: 16px;
+    }
+}
+
+.services__cards {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.services__card {
+    padding: 50px;
+    position: relative;
+    height: 577px;
+    border: 1px solid #262626;
+}
+
+@media (max-width: 1440px) {
+    .services__card {
+        height: 510px;
+        padding: 40px;
+    }
+}
+
+.services__card-icon {
+    padding: 24px;
+    border: 1px solid linear-gradient(#2E2E2E, rgba(46, 46, 46, 0));
+    background: linear-gradient(#242424, rgba(36, 36, 36, 0));
+    border-radius: 10px;
+}
+
+@media (max-width: 1440px) {
+    .services__card-icon {
+        padding: 20px;
+        width: 70px;
+        height: 70px;
+    }
+}
+
+.services__card-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1440px) {
+    .services__card-title {
+        font-size: 24px;
+    }
+}
+
+.services__card-text {
+    color: #e6e6e6;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    max-width: 432px;
+    letter-spacing: 0.6%;
+}
+
+@media (max-width: 1440px) {
+    .services__card-text {
+        font-size: 16px;
+    }
+}
+
+.services__card-button {
+    position: absolute;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #262626;
+    max-width: 350px;
+    padding: 18px 16px;
+    bottom: 50px;
+}
+
+@media (max-width: 1440px) {
+    .services__card-button {
+        font-size: 14px;
+        padding: 14px 16px;
+        bottom: 40px;
+    }
+}
