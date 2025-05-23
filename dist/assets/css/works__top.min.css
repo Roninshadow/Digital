@@ -1,1 +1,35 @@
-.works__top{background-image:url(../images/text-bg1.png);background-repeat:no-repeat;padding:110px 300px;border:1px solid #262626}.works__title{text-align:center;font-size:48px;font-weight:600}.works__subtitle{text-align:center;font-size:20px;font-weight:400;color:#e6e6e6;margin-top:14px}
+.works__top {
+  background-image: url(../images/text-bg1.png);
+  background-repeat: no-repeat;
+  padding: 110px 300px;
+  border: 1px solid #262626;
+}
+@media (max-width: 1440px) {
+  .works__top {
+    padding: 100px 250px;
+  }
+}
+
+.works__title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+}
+@media (max-width: 1440px) {
+  .works__title {
+    font-size: 38px;
+  }
+}
+
+.works__subtitle {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  color: #e6e6e6;
+  margin-top: 14px;
+}
+@media (max-width: 1440px) {
+  .works__subtitle {
+    font-size: 18px;
+  }
+}

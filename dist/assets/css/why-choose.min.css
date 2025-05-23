@@ -1,1 +1,96 @@
-.whtChoose__top{background-image:url(../images/text-bg4.png);padding:120px 300px;border:1px solid #262626}@media (max-width:1440px){.whtChoose__top{padding:100px 250px}}.whyChoose__title{font-size:48px;font-weight:600;text-align:center}@media (max-width:1440px){.whyChoose__title{font-size:38px}}.whyChoose__subtitle{font-size:18px;font-weight:400;color:#e6e6e6;margin-top:14px;text-align:center}@media (max-width:1440px){.whyChoose__subtitle{font-size:16px}}.whyChoose__cards{display:grid;grid-template-columns:repeat(2,2fr)}.whyChoose__card{padding:80px;border:1px solid #262626}@media (max-width:1440px){.whyChoose__card{padding:60px}}.whyChoose__card-top{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;gap:20px}@media (max-width:1440px){.whyChoose__card-top{gap:14px}}.whyChoose__card-icon{padding:24px;border:1px solid linear-gradient(#2e2e2e,rgba(46,46,46,0));background:linear-gradient(#242424,rgba(36,36,36,0));border-radius:10px}@media (max-width:1440px){.whyChoose__card-icon{padding:20px;width:70px;height:70px}}.whyChoose__card-title{font-size:26px;font-weight:500}@media (max-width:1440px){.whyChoose__card-title{font-size:20px}}.whyChoose__card-text{font-size:20px;font-weight:400;color:#e6e6e6;margin-top:40px}@media (max-width:1440px){.whyChoose__card-text{font-size:16px}}
+.whtChoose__top {
+  background-image: url(../images/text-bg4.png);
+  padding: 120px 300px;
+  border: 1px solid #262626;
+}
+@media (max-width: 1440px) {
+  .whtChoose__top {
+    padding: 100px 250px;
+  }
+}
+
+.whyChoose__title {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+}
+@media (max-width: 1440px) {
+  .whyChoose__title {
+    font-size: 38px;
+  }
+}
+
+.whyChoose__subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  color: #e6e6e6;
+  margin-top: 14px;
+  text-align: center;
+}
+@media (max-width: 1440px) {
+  .whyChoose__subtitle {
+    font-size: 16px;
+  }
+}
+
+.whyChoose__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+}
+
+.whyChoose__card {
+  padding: 80px;
+  border: 1px solid #262626;
+}
+@media (max-width: 1440px) {
+  .whyChoose__card {
+    padding: 60px;
+  }
+}
+
+.whyChoose__card-top {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+@media (max-width: 1440px) {
+  .whyChoose__card-top {
+    gap: 14px;
+  }
+}
+
+.whyChoose__card-icon {
+  padding: 24px;
+  border: 1px solid linear-gradient(#2E2E2E, rgba(46, 46, 46, 0));
+  background: linear-gradient(#242424, rgba(36, 36, 36, 0));
+  border-radius: 10px;
+}
+@media (max-width: 1440px) {
+  .whyChoose__card-icon {
+    padding: 20px;
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.whyChoose__card-title {
+  font-size: 26px;
+  font-weight: 500;
+}
+@media (max-width: 1440px) {
+  .whyChoose__card-title {
+    font-size: 20px;
+  }
+}
+
+.whyChoose__card-text {
+  font-size: 20px;
+  font-weight: 400;
+  color: #e6e6e6;
+  margin-top: 40px;
+}
+@media (max-width: 1440px) {
+  .whyChoose__card-text {
+    font-size: 16px;
+  }
+}

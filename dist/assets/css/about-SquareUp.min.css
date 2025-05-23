@@ -1,1 +1,50 @@
-.about__about{display:-ms-flexbox;display:flex;padding:100px 150px;border:1px solid #262626}.about__content{padding:140px 0;padding-right:100px}.aboutSquareUp__title{font-size:48px;font-weight:600}.aboutSquareUp__text{font-size:20px;font-weight:400;margin-top:20px}.aboutSquareUp__image{width:600px;height:571px;border-radius:16px;border:1px solid #262626}
+.about__about {
+  display: flex;
+  padding: 100px 150px;
+  border: 1px solid #262626;
+}
+@media (max-width: 1440px) {
+  .about__about {
+    padding: 80px 100px;
+  }
+}
+
+.about__about {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.aboutSquareUp__title {
+  font-size: 48px;
+  font-weight: 600;
+}
+@media (max-width: 1440px) {
+  .aboutSquareUp__title {
+    font-size: 38px;
+  }
+}
+
+.aboutSquareUp__text {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+@media (max-width: 1440px) {
+  .aboutSquareUp__text {
+    font-size: 16px;
+  }
+}
+
+.aboutSquareUp__image {
+  width: 600px;
+  height: 571px;
+  border-radius: 16px;
+  border: 1px solid #262626;
+}
+@media (max-width: 1440px) {
+  .aboutSquareUp__image {
+    width: 490px;
+    height: 483px;
+  }
+}

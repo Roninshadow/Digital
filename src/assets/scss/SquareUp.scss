@@ -6,25 +6,41 @@
   border: 1px solid variables.$grey-15;
   padding: 50px;
   padding-top: 120px;
+  @media (max-width: 1440px) {
+   padding: 40px;
+   padding-top: 80px;  
+  }
 }
 .SquareUp__title {
   font-size: 48px;
   font-weight: 600;
   margin-bottom: 14px;
+  @media (max-width: 1440px) {
+   font-size: 38px;
+   margin-bottom: 10px;  
+  }
 }
 .SquareUp__title-subtitle {
   font-size: 18px;
   font-weight: 400;
   color: variables.$grey-90;
+  @media (max-width: 1440px) {
+   font-size: 16px;  
+  }
 }
 .SquareUp__info {
   font-size: 22px;
   padding: 12px 14px;
   font-weight: 400;
   background-color: variables.$grey-15;
-  max-width: 450px;
+  display: inline-block;
   border-radius: 8px;
   margin-top: 40px;
+  @media (max-width: 1440px) {
+     padding: 10px;
+     font-size: 18px;
+     margin-top: 40px;
+  }
 }
 .SquareUp__cards {
   display: grid;
@@ -35,26 +51,39 @@
   border: 1px solid variables.$grey-15;
 }
 .SquareUp__card-top {
-  padding: 30px;
+  padding: 30px 50px;
   border-bottom: 1px solid variables.$grey-15;
   font-size: 26px;
   font-weight: 500;
   color: variables.$grey-60;
+  @media (max-width: 1440px) {
+   padding: 24px 40px;
+   font-size: 20px;  
+  }
 }
 .SquareUp__card-image {
   padding: 30px 50px;
   border-radius: 12px;
+  @media (max-width: 1440px) {
+   padding: 30px 40px 24px;  
+  }
 }
 .SquareUp__card-titles {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 0 50px;
+  @media (max-width: 1440px) {
+   margin: 0 40px;  
+  }
 }
 .SquareUp__card-title {
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 10px;
+  @media (max-width: 1440px) {
+   font-size: 18px;  
+  }
 }
 .SquareUp__card-link {
   padding: 10px 14px;
@@ -63,11 +92,19 @@
   font-size: 20px;
   font-weight: 400;
   color: variables.$grey-60;
+  @media (max-width: 1440px) {
+   padding: 8px 12px;
+   font-size: 16px;  
+  }
 }
 .SquareUp__card-arrow {
   background-color: variables.$grey-15;
   border-radius: 8px;
   padding: 10px;
+  @media (max-width: 1440px) {
+   width: 46px;
+   height: 46px;  
+  }
 }
 .SquareUp__card-text {
   margin: 50px;
@@ -75,4 +112,7 @@
   font-size: 18px;
   font-weight: 400;
   color: variables.$grey-60;
+  @media (max-width: 1440px) {
+   font-size: 16px;  
+  }
 }

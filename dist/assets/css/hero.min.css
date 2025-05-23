@@ -1,1 +1,86 @@
-.hero{background-image:url(../images/Hero\ Section.png);border:1px solid #262626;padding-bottom:270px}.hero__title{text-align:center;padding-top:112px;font-size:68px;font-weight:600;line-height:120%;margin-left:15px}@media (max-width:1440px){.hero__title{font-size:48px}}.hero__subtitle{text-align:center}.hero__subtitle .hero__subtitle-text{display:inline-block;padding:32px 40px;border-radius:12px;backdrop-filter:blur(12px);border:1px solid #262626;background-color:rgba(36,36,36,.2);margin-top:40px}@media (max-width:1440px){.hero__subtitle .hero__subtitle-text{padding:18px 30px;font-size:18px}}.hero__subtitle .text__span{padding:12px 14px;background-color:#262626;border-radius:8px;margin:0 5px}.hero__buttons{margin-top:50px;display:-ms-flexbox;display:flex;gap:13px;-ms-flex-pack:center;justify-content:center;margin-left:15px;-ms-flex-align:center;align-items:center}.hero__buttons .hero__button-works{display:inline-block;padding:18px 28px;border-radius:10px;background-color:rgba(36,36,36,.2);backdrop-filter:blur(12px);border:1px solid #333;font-size:18px;font-weight:500;line-height:1}@media (max-width:1440px){.hero__buttons .hero__button-works{padding:14px 20px;font-size:14px}}.hero__buttons .hero__button-contact{padding:18px 28px;border-radius:10px;background-color:#9eff00;color:#262626;font-size:18px;font-weight:500;line-height:1}@media (max-width:1440px){.hero__buttons .hero__button-contact{padding:14px 20px;font-size:14px}}
+.hero {
+  background-image: url(../images/Hero\ Section.png);
+  border: 1px solid #262626;
+  padding-bottom: 270px;
+}
+
+.hero__title {
+  text-align: center;
+  padding-top: 112px;
+  font-size: 68px;
+  font-weight: 600;
+  line-height: 120%;
+  margin-left: 15px;
+}
+@media (max-width: 1440px) {
+  .hero__title {
+    font-size: 48px;
+  }
+}
+
+.hero__subtitle {
+  text-align: center;
+}
+.hero__subtitle .hero__subtitle-text {
+  display: inline-block;
+  padding: 32px 40px;
+  border-radius: 12px;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border: solid 1px #262626;
+  background-color: rgba(36, 36, 36, 0.2);
+  margin-top: 40px;
+}
+@media (max-width: 1440px) {
+  .hero__subtitle .hero__subtitle-text {
+    padding: 18px 30px;
+    font-size: 18px;
+  }
+}
+.hero__subtitle .text__span {
+  padding: 12px 14px;
+  background-color: #262626;
+  border-radius: 8px;
+  margin: 0 5px 0 5px;
+}
+
+.hero__buttons {
+  margin-top: 50px;
+  display: flex;
+  gap: 13px;
+  justify-content: center;
+  margin-left: 15px;
+  align-items: center;
+}
+.hero__buttons .hero__button-works {
+  display: inline-block;
+  padding: 18px 28px;
+  border-radius: 10px;
+  background-color: rgba(36, 36, 36, 0.2);
+  backdrop-filter: blur(12px);
+  border: 1px solid #333;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+}
+@media (max-width: 1440px) {
+  .hero__buttons .hero__button-works {
+    padding: 14px 20px;
+    font-size: 14px;
+  }
+}
+.hero__buttons .hero__button-contact {
+  padding: 18px 28px;
+  border-radius: 10px;
+  background-color: #9eff00;
+  color: #262626;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+}
+@media (max-width: 1440px) {
+  .hero__buttons .hero__button-contact {
+    padding: 14px 20px;
+    font-size: 14px;
+  }
+}

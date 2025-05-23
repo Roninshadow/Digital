@@ -2,15 +2,24 @@
 .process__top {
   background-image: url(../images/text-bg5.png);
   padding: 120px 300px;
+  @media (max-width: 1440px) {
+    padding: 100px 250px;
+  }
 }
 .process__top-title {
   text-align: center;
   font-size: 48px;
   font-weight: 600;
+  @media (max-width: 1440px) {
+    font-size: 38px;  
+   }
 }
 .process__top-subtitle {
   text-align: center;
   font-size: 20px;
   font-weight: 400;
   margin-top: 14px;
+  @media (max-width: 1440px) {
+    font-size: 18px;  
+   }
 }
